@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
-  <title>キツネのAR</title>
+  <title>キツネとリンゴのAR</title>
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.7/aframe/build/aframe-ar.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.7.0/dist/aframe-extras.min.js"></script>
@@ -16,7 +16,7 @@
   <a-scene embedded
     arjs="sourceType: webcam; debugUIEnabled: false;"
     vr-mode-ui="enabled: false">
-    <a-marker type="pattern" url="fox.patt">
+    <a-marker type="pattern" url="mymarker.patt">
       <a-entity id="fox" gltf-model="url(Fox.glb)"
         position="0 0 0" rotation="0 45 0"
         scale="0.008 0.008 0.008"
